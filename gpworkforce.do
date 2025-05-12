@@ -2,7 +2,7 @@ clear all
 
 // Set paths dynamically
 global currentuser "Insert your username" // eg. global currentuser "s48620if"
-if c(username) == $currentuser {
+if c(username) == "$currentuser" {
 	global path yourpath // e.g. global path C:\Users\s48620if\Dropbox (The University of Manchester)\Workforce research data\
 	}
 
